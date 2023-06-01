@@ -1,0 +1,23 @@
+TO find all the name with age greater than or equal to 40
+	
+name   ID age
+Ramesh 11 25
+Suresh 12 30
+Harish 13 32
+Uday   14 40
+Sunil  15 45
+Reddy  16 55
+Singh  17 60
+
+#!/bin/bash
+sed '1d' opqages.sh > temp
+while read line
+do 
+	age=`echo $line | cut -d " " -f3`
+	if [ $age -ge 40 ]
+	then 
+		name=echo $line | cut -d " " -f1
+	echo $name
+	fi
+done < temp
+rm temp
