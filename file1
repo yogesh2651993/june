@@ -1,0 +1,4 @@
+Debugging
+set -x --> print the commands and their arguments as they are executed.
+set -n --> read the commands but not execute.
+set -v --> print the input lines as they are executed.
