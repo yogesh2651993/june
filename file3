@@ -1,0 +1,23 @@
+cron Job:
+
+A cron Job is linux command used for scheduling task to be excuted periodically.
+
+crontab -- This file which contains all the cron job enteries to be run at a specefic time.
+
+Crontab contains 6 Fileds
+
+*		*			*			*			*		filename.sh
+Min		hours		Date		Month		day
+
+0-6
+0- Sunday
+1- Monday
+2- Tuesday
+3- Wednesday
+4- Thursday
+5-Friday
+6- saturday
+
+* * * * * -- every minitue
+00 * * * * -- eVERY hours
+
