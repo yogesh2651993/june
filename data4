@@ -1,0 +1,10 @@
+file size and disk space
+------------------------
+du -sh <filename> --check the file size
+du -sb <filename> -- check the file size in bytes
+du -sh * -------> to check size of all files in directory
+
+df -h -- to check the disk size
+free -h --to check system memory(RAM)
+free -g -- to check system memory in GB
+
